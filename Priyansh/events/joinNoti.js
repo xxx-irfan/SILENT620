@@ -31,35 +31,37 @@ module.exports.run = async function({ api, event }) {
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`[ ${global.config.PREFIX} ] • ${(!global.config.BOTNAME) ? " " : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
         const fs = require("fs");
-        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
-        
-🕊️🌸...Ɦɛɭɭ❍ Ɠɣus Ɱɣ Ɲɑɱɛ Is 🍒💙•••✦≛⃝OWNER ➺ 🌸𒁍आदि बाबू•••💞🌿
+        return api.sendMessage("", event.threadID, () => api.sendMessage({body: `🍒💙•••
+💝🥀🍒💙•••Ɓ❍ʈ Ƈøɳɳɛƈʈɛɗ•••💞🌿
+    ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)🇮🇳 𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎𝐑𝐌𝐀𝐓𝐈𝐎𝐍 🇮🇳 
+(⌐▀͡ ̯ʖ▀)︻̷┻̿═━一-
+
+☄️Bot Name︎︎︎☄️  𒁍≛⃝●☆●🥀ɢ❍ɭ ɢʌ𝐩𝐩🅘💔🪽
+
+🔥Bot Admin🔥🤩S𝐈𝐋𝐄𝐍𝐓 𝐏𝐑𝐈𝐍𝐂𝐄☜︎︎︎✰💔🥀
+
+🙈bot andmin owner facebook id link🥀ɢ❍🙈👇🏻
+ https://www.facebook.com/profile.php?id=61551474205816😇
+
+✧══════•❁❀❁•══════✧
+
+🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ .
+
+♥️Bot Owner♥️ ☞︎︎︎S𝐈𝐋𝐄𝐍𝐓 𝐏𝐑𝐈𝐍𝐂𝐄☜︎︎︎✰ 
 
 
 
 
- ✨💞Ɱɣ Ꭾɽɛfɪᵡ ɪs # 
+
+✅Thanks for using 𒁍●☆●🥀💔🪽 Bot🖤
 
 
-\n\nƬɣƥɛ${global.config.PREFIX}ꞪɛɭᎮ Ƭ❍ søø Ɱɣ Ƈøɱɱɑɳɗ ɭɪsʈ...🤍💫\n
-\nƐxɑɱƥɭɛ :\n
-
-${global.config.PREFIX}Sɧɑɣɽɪ..💜(Ƭɛxʈ)\n${global.config.PREFIX} (Ƥɧøʈø)🌬️🌳🌊
-
-🦋🌸Ƭɣƥɛ${global.config.PREFIX}Ɦɛɭƥ2 (Ɑɭɭ Ƈøɱɱɑɳɗʂ)...☃️💌
-
-${global.config.PREFIX} ɪɳfø (ɑɗɱɪɳ Iɳføɽɱɑʈɪøɳ)👀✍️
-...🍫🥀Ɱɣ ❍wɳɛɽ ɪs Ɱɽ 🌸𒁍आदि बाबू...🕊️☃️
-
-${global.config.PREFIX}🌺🍃Ƈɑɭɭɑɗ føɽ Ɑɳɣ ɪʂʂuɛ 
-<<<<<------------------------------>>>>>
-A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B̸O̸T̸ D̸E̸V̸A̸L̸O̸P̸A̸R̸....💙🍫
-
-💝🥀𝐎𝐖𝐍𝐄𝐑:- ☞आदि बाबू☜ 💫\n🖤𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 आदि बाबू🖤\n😳𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝🤓:- ☞ https://www.facebook.com/profile.php?id=100010492052172&mibextid=ZbWKwL\n
-👋For Any Kind Of Help Contact On Instagram  Username 👉 https://www.instagram.com/aadi_singh__143?igsh=MXVneXZ6bzR4bHhvcg==😇 
-
-
-✮☸✮
+🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
+┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
+🌸✦✧✧✧✧✰🍒✬✿╭┳✪✪╤───────────➛➣ ★�🆁🅸🅽🅲🅴★🆂🅸🅻🅴🅽🆃)✪��🆈★  ✬✿╭┳✪✪╤───────────➛➣🤩🌿✰✧✧✧✧✦🌸
+┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛    
+🕊️🌸
+...
 ✮┼💞┼✮
 ☸🕊️━━•🌸•━━🕊️☸
 ✮☸✮
@@ -71,7 +73,10 @@ A̸N̸D̸ F̸O̸R̸ A̸N̸Y̸ R̸E̸P̸O̸R̸T̸ O̸R̸ C̸O̸N̸T̸A̸C̸T̸ B�
 ✮☸✮
 ✮┼❄️┼✮
 
-┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓🌸✦✧✧✧✧✰🍒≛⃝OWNER ➺ 🌸𒁍आदि बाबू🌿✰✧✧✧✧✦🌸  ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
+
+✮☸✮
+✮┼💞┼✮
+☸🕊️━━•🌸•━
 `, attachment: fs.createReadStream(__dirname + "/cache/botjoin.mp4")} ,threadID));
     }
     else {

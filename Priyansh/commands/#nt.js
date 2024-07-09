@@ -19,7 +19,7 @@ react.includes("nyt") ||
 react.includes("Nyt") ||     
 react.includes("nYt")) {
     var msg = {
-        body: `${name}  𝐆𝐎𝐎𝐃  𝐍𝐈𝐆𝐇𝐓  𝐌𝐘 𝐒𝐖𝐄𝐄𝐓 𝐇𝐄𝐀𝐑𝐓💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/nt gif`)
+        body: `${name}  𝐆𝐎𝐎𝐃  𝐍𝐈𝐆𝐇𝐓  𝐌𝐘 𝐒𝐖𝐄𝐄𝐓 𝐇𝐄𝐀𝐑𝐓💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Nt gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙃", event.messageID, (err) => {}, true)

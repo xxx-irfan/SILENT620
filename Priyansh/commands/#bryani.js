@@ -1,4 +1,4 @@
-const fs = requirerequire("fs");
+const fs = require("fs");
 module.exports.config = {
   name: "bryani",
     version: "2.1.1",
@@ -14,12 +14,12 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("biryani") ||
-     react.includes("Birtani") || react.includes("BIRYANI") || react.includes("Bryanj") ||
+     react.includes("Biryani") || react.includes("BIRYANI") || react.includes("biryni") ||
 react.includes("bryani") ||
-react.includes("BRYANI") ||     
-react.includes("Briyani")) {
-    var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐁𝐈𝐑𝐘À𝐍𝐈 🤲𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Bryani.jpeg`)
+react.includes("Bryani") ||     
+react.includes("biryeni")) {
+    var msg = {
+        body: `${name} 𝐋𝐎 𝐉𝐀𝐀𝐍 𝐁𝐈𝐑𝐘𝐀Ñ𝐈 𝐊𝐇𝐀𝐀𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Bryani.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

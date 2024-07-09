@@ -34,7 +34,7 @@ react.includes("prince")) {
 ✮☸✮
 ☸🌈━━•🤍•━━🌈☸❤️
 ✮☸✮
-✮┼❄️┼✮🥀💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/kk1.jpeg`)
+✮┼❄️┼✮🥀💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/kk1.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😘", event.messageID, (err) => {}, true)

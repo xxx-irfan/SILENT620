@@ -19,7 +19,7 @@ react.includes("bryani") ||
 react.includes("BRYANI") ||     
 react.includes("Briyani")) {
     var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐁𝐈𝐑𝐘À𝐍𝐈 𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/bryani.jpeg`)
+        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐁𝐈𝐑𝐘À𝐍𝐈 𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Bryani.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

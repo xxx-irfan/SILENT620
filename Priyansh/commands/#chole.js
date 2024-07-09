@@ -1,4 +1,4 @@
-const fs = requirerequire("fs");
+const fs = require("fs");
 module.exports.config = {
   name: "chole",
     version: "2.1.1",
@@ -13,16 +13,16 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("chloe") ||
-     react.includes("Chole") || react.includes("bhature") || react.includes("Bhature") ||
-react.includes("CHOLA") ||
-react.includes("Bhatura") ||     
-react.includes("bhatura")) {
-    var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘 𝐁𝐇À𝐓𝐔𝐑À 𝐊𝐡𝐀𝐎  💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/chole.jpeg`)
+  if(react.includes("chole") ||
+     react.includes("Chole") || react.includes("bhatura") || react.includes("Bhatura") ||
+react.includes("Chola") ||
+react.includes("chola") ||     
+react.includes("bhature")) {
+    var msg = {
+        body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐂𝐇𝐎𝐋𝐄 𝐁𝐇𝐀𝐓𝐔𝐑𝐄 𝐊𝐇𝐀𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Chole.png`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😋", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = async ({ api, event, Currencies, args, utils, client, global }) => {

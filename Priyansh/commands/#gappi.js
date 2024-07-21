@@ -13,13 +13,13 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Pani puri") ||
-     react.includes("pani puri") || react.includes("gol gappe") || react.includes("Gol gappe") ||
-react.includes("gol gappa") ||
-react.includes("gol gappi") ||     
-react.includes("Gol gappi")) {
-    var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘 𝐆𝐎𝐋𝐆À𝐏𝐏𝐄 𝐊𝐡𝐀𝐎  💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Gappi.jpeg`)
+  if(react.includes("gol gappe") ||
+     react.includes("Gol gappe") || react.includes("gol gappi") || react.includes("Gol gappi") ||
+react.includes("Gol gappa") ||
+react.includes("Pani puri") ||     
+react.includes("gol gappa")) {
+    var msg = {
+        body: `${name} 𝐋𝐨 𝐛𝐚𝐛𝐲 𝐩à𝐧𝐢 𝐩𝐮𝐫𝐢 𝐤𝐡𝐚𝐨 💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Gappi.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

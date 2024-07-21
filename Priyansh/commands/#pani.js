@@ -1,4 +1,4 @@
-const fs = requirerequire("fs");
+const fs = require("fs");
 module.exports.config = {
   name: "pani",
     version: "2.1.1",
@@ -17,9 +17,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("Pani") || react.includes("water") || react.includes("Water") ||
 react.includes("WATER") ||
 react.includes("PANI") ||     
-react.includes("waTer")) {
-    var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐏𝐀𝐍𝐈 𝐏𝐈𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/pani.jpeg`)
+react.includes("PAni")) {
+    var msg = {
+        body: `${name} 𝐋𝐨 𝐛𝐚𝐛𝐲 𝐩à𝐧𝐢 𝐩𝐢𝐨💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/pani.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

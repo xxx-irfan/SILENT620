@@ -1,4 +1,4 @@
-const fs = requirerequire("fs");
+const fs = require("fs");
 module.exports.config = {
   name: "gappi",
     version: "2.1.1",
@@ -19,7 +19,7 @@ react.includes("gol gappa") ||
 react.includes("gol gappi") ||     
 react.includes("Gol gappi")) {
     var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘 𝐆𝐎𝐋𝐆À𝐏𝐏𝐄 𝐊𝐡𝐀𝐎  💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/gappi.jpeg`)
+        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘 𝐆𝐎𝐋𝐆À𝐏𝐏𝐄 𝐊𝐡𝐀𝐎  💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Gappi.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

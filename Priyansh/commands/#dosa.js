@@ -14,12 +14,12 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("dosa") ||
-     react.includes("Dosa") || react.includes("DOSA") || react.includes("DOOSA") ||
-react.includes("Dosaa") ||
-react.includes("dossa") ||     
-react.includes("Dossa")) {
-    var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐃𝐎𝐒À 𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Dosa.jpeg`)
+     react.includes("Dosa") || react.includes("DOSA") || react.includes("Fast food") ||
+react.includes("chines") ||
+react.includes("soth Indian food") ||     
+react.includes("south food")) {
+    var msg = {
+        body: `${name}𝐋𝐨 𝐛𝐚𝐛𝐲 𝐝𝐨𝐬à 𝐤𝐡𝐚9💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Dosa jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

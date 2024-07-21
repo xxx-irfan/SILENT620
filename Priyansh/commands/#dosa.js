@@ -19,7 +19,7 @@ react.includes("Dosaa") ||
 react.includes("dossa") ||     
 react.includes("Dossa")) {
     var msg = 
-        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐃𝐎𝐒À 𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/dosa.jpeg`)
+        body: `${name} 𝐋𝐨 𝐁𝐀𝐁𝐘  𝐃𝐎𝐒À 𝐊𝐇À𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Dosa.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

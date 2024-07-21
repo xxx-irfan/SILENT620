@@ -19,7 +19,7 @@ react.includes("chines") ||
 react.includes("soth Indian food") ||     
 react.includes("south food")) {
     var msg = {
-        body: `${name}𝐋𝐨 𝐛𝐚𝐛𝐲 𝐝𝐨𝐬à 𝐤𝐡𝐚9💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Dosa jpeg`)
+        body: `${name}𝐋𝐨 𝐛𝐚𝐛𝐲 𝐝𝐨𝐬à 𝐤𝐡𝐚9💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Dosa.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)

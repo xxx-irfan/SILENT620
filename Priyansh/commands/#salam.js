@@ -14,7 +14,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("asslam") ||
-     react.includes("Assalam") || react.includes("aslam") || react.includes("Asslam") ||
+     react.includes("Assalam") || react.includes("ASSALAMU ALAYKUM") || react.includes("Asslam") ||
 react.includes("Aslam") ||
 react.includes("asslam") ||     
 react.includes("Assalamu alaikum")) {

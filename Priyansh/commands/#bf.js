@@ -14,9 +14,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("Bf") ||
-     react.includes("bf") || react.includes("BOYFRIEND") || react.includes("bf") ||
+     react.includes("bf") || react.includes("BOYFRIEND") || react.includes("boyfriend") ||
 react.includes("bf") ||
-react.includes("bf") ||     
+react.includes("Bf") ||     
 react.includes("bf")) {
     var msg = {
         body: `${name} 𝐀𝐋𝐄 𝐌𝐎𝐑𝐈 𝐌𝐀𝐈𝐘𝐀 𝐋𝐄 𝐓𝐄𝐑𝐀 𝐂𝐄𝐔𝐓 𝐁𝐅😹✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Bf.jpg`)

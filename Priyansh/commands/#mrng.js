@@ -19,7 +19,7 @@ react.includes("good morning") ||
 react.includes("Good Morning") ||     
 react.includes("Good morning")) {
     var msg = {
-        body: `${name} 𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐑𝐍𝐆 𝐌𝐘 𝐒𝐖𝐄𝐄𝐓 𝐇𝐄𝐀𝐑𝐓💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/mrng gif`)
+        body: `${name} 𝐕𝐄𝐑𝐘 𝐆𝐎𝐎𝐃 𝐌𝐑𝐍𝐆 𝐌𝐘 𝐒𝐖𝐄𝐄𝐓 𝐇𝐄𝐀𝐑𝐓💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/mrng.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙃", event.messageID, (err) => {}, true)

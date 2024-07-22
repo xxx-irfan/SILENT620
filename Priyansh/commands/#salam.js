@@ -17,7 +17,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("Assalam") || react.includes("aslam") || react.includes("Asslam") ||
 react.includes("Aslam") ||
 react.includes("asslam") ||     
-react.includes("Assalam alaikum")) {
+react.includes("Assalamu alaikum")) {
     var msg = {
         body: `${name}  𝐖𝐀𝐋𝐄𝐊𝐔𝐌 𝐀𝐒𝐒𝐋𝐀𝐌💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Salam.gif`)
       }

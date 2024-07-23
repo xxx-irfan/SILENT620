@@ -19,10 +19,10 @@ react.includes("owner ki gf") ||
 react.includes("Owner ki gf") ||     
 react.includes("NITYA")) {
     var msg = {
-        body: `${name} 𝐍𝐈𝐓𝐘𝐀 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐈 𝐆𝐅 𝐇𝐀𝐈 💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/nit.png`)
+        body: `${name} 𝐍𝐈𝐓𝐘𝐀 𝐌𝐄𝐑𝐄 𝐁𝐎𝐒𝐒 𝐊𝐈 𝐖𝐈𝐅𝐄 𝐇𝐀𝐈 💕✿`,attachment: fs.createReadStream(__dirname + `/noprefix/nit.png`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🙈", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = async ({ api, event, Currencies, args, utils, client, global }) => {

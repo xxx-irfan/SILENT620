@@ -14,10 +14,10 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("asslam") ||
-     react.includes("Assalam") || react.includes("ASSALAMU ALAYKUM") || react.includes("Asslam") ||
+     react.includes("Assalam") || react.includes("Assalamu alaikum") || react.includes("Asslam") ||
 react.includes("Aslam") ||
 react.includes("asslam") ||     
-react.includes("Assalamu alaikum")) {
+react.includes("Assalamualaikum")) {
     var msg = {
         body: `${name}  𝐖𝐀𝐋𝐄𝐊𝐔𝐌 𝐀𝐒𝐒𝐋𝐀𝐌💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Salam.gif`)
       }

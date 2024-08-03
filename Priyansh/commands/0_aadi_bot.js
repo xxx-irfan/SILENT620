@@ -20,10 +20,10 @@ react.includes("Sita") ||    
 react.includes("seeta")) {
     var msg = {
         body: `${name} 𝐉À𝐆 𝐌 𝐒À𝐂𝐇À 𝐄𝐊 𝐇𝐈 𝐍À𝐌𝐄 𝐇𝐈 𝐑À𝐌 
-𝐉𝐀𝐈 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/ram.gif`)
+𝐉𝐀𝐈 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Ram.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🙏", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = async ({ api, event, Currencies, args, utils, client, global }) => {

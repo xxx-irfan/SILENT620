@@ -19,7 +19,7 @@ react.includes("@Ayaan khan") ||
 react.includes("AYAAN KHAN") ||     
 react.includes("AYAAN")) {
     var msg = {
-        body: `${name}  BABU AYAAN KHANA BANANE M BUSY HAU UNHE DISTRUB NA KARO💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Bye.gif`)
+        body: `${name}  BABU AYAAN KHANA BANANE M BUSY HAU UNHE DISTRUB NA KARO💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Ayan.gif`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙃", event.messageID, (err) => {}, true)

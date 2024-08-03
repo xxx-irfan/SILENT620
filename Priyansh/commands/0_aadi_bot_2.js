@@ -1,4 +1,4 @@
-mconst fs = require("fs");
+const fs = require("fs");
 module.exports.config = {
   name: "babu",
     version: "1.1.1",

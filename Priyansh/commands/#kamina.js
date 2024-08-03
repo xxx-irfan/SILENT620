@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "call",
+  name: "kamina",
     version: "1.1.1",
   hasPermssion: 0,
   credits: "𝐏𝐑𝐈𝐘𝐀𝐍𝐒𝐇𝐈 𝐊𝐀𝐔𝐑", 
@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("kamin") ||
 react.includes("Kamin")) {
     var msg = {
-        body: `┼𝖚 🤍ɗ❍𝖚ɮɭə🕊️ ҡʌ🅘ɳʌ☘️ 卄ʌ🅘🕊️🙃👈`,
+        body: `𝐓𝐔 𝐃𝐎𝐔𝐁𝐋𝐄 𝐊𝐀𝐌𝐈𝐍À 𝐌 𝐓𝐎 𝐁𝐎𝐓 𝐇𝐔n😝🙃👈`,
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😔", event.messageID, (err) => {}, true)

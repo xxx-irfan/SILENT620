@@ -19,7 +19,7 @@ react.includes("aryn") ||
 react.includes("ARYN") ||     
 react.includes("Aaryan")) {
     var msg = {
-        body: `${name} 𝐿𝑂 𝑀𝐸𝑅𝐼 𝐽𝐴𝐴𝑁 😹 𝑀𝐸𝑅𝐸 𝐵𝑂𝑆𝑆 𝐾𝑂😘 𝑌𝐴𝐴𝐷 𝐾𝐼𝑌𝐴 𝐴𝐺𝐴𝑌𝐸 𝑀𝐸𝑅𝐸 𝐵𝑂𝑆𝑆 😎 À𝑅𝑌𝐴𝑁 𝐺💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Aryan.png`)
+        body: `${name} 𝐿𝑂 𝑀𝐸𝑅𝐼 𝐽𝐴𝐴𝑁 😹 𝑀𝐸𝑅𝐸 𝐵𝑂𝑆𝑆 𝐾𝑂😘 𝑌𝐴𝐴𝐷 𝐾𝐼𝑌𝐴 𝐴𝐺𝐴𝑌𝐸 𝑀𝐸𝑅𝐸 𝐵𝑂𝑆𝑆 😎 À𝑅𝑌𝐴𝑁 𝐺💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Aryn.png`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("💋", event.messageID, (err) => {}, true)

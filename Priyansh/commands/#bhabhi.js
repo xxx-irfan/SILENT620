@@ -12,10 +12,10 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Gayatri") ||
+  if(react.includes("gayatri") ||
      react.includes("Gayatri") || react.includes("bhabhi") || react.includes("Bhabhi") ||
-react.includes("Gayatri") ||
-react.includes("Gayatri")) {
+react.includes("GAYATRI") ||
+react.includes("Gayatri jaiswal")) {
     var msg = {
         body: `𝐌𝐀𝐈 𝐁𝐎𝐓 😹𝐇𝐔𝐍 𝐓𝐎 𝐊𝐘𝐀 𝐇𝐔𝐀😛 𝐌𝐀𝐈 𝐁𝐇𝐈 𝐁𝐇𝐀𝐁𝐇𝐈 😆𝐁𝐎𝐋𝐔𝐍𝐆𝐀 𝐆𝐀𝐘𝐀𝐓𝐑𝐈 𝐁𝐇𝐀𝐁𝐇𝐈😸 𝐉𝐀𝐆𝐀𝐓 𝐁𝐇𝐀𝐁𝐇𝐈🤣`,
       }

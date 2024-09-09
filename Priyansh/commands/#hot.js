@@ -6,7 +6,7 @@ module.exports.config = {
   credits: "BROKEN",
   description: "HOT VEDIO",
   commandCategory: "Random",
-  usages: "Hotvideos",
+  usages: "hot video",
   cooldowns: 5,
   dependencies: {
     "request":"",

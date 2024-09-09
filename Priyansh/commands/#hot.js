@@ -1,6 +1,6 @@
 ** dont change credits pleas**/
 module.exports.config = {
-  name: "Hotvideos",
+  name: "hot",
   version: "1.0.0",
   hasPermssion: 0,
   credits: "BROKEN",

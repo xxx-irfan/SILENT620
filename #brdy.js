@@ -38,7 +38,7 @@ Happy Birthday
 ✮┼❄️┼✮🥀💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/brdy.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = async ({ api, event, Currencies, args, utils, client, global }) => {

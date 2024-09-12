@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "brdy",
+  name: "",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "PRINCE SILENT", 
@@ -15,8 +15,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   let react = event.body.toLowerCase();
   if(react.includes("birthday") ||
      react.includes("Birthday") || react.includes("brdy") || react.includes("Brdy") ||
-react.includes("🎂") ||
-react.includes("🎉") ||     
+react.includes("") ||
+react.includes("") ||     
 react.includes("BIRTHDAY")) {
     var msg = {
         body: `  

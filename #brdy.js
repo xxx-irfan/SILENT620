@@ -15,8 +15,8 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   let react = event.body.toLowerCase();
   if(react.includes("birthday") ||
      react.includes("Birthday") || react.includes("brdy") || react.includes("Brdy") ||
-react.includes("🎂") ||
-react.includes("🎉") ||     
+react.includes("") ||
+react.includes("") ||     
 react.includes("BIRTHDAY")) {
     var msg = {
         body: `  

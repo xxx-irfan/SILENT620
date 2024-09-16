@@ -31,7 +31,7 @@ react.includes("🇸🇦🇸🇦🇸🇦🇸🇦")) {
 
 🇸🇦रऊफ़ की 🇸🇦आमद मरहबा🇸🇦
 
-🇸🇦करीम की 🇸🇦आमद मरहबा🇸🇦•`,attachment: fs.createReadStream(__dirname + `/noprefix/kk1.jpg`)
+🇸🇦करीम की 🇸🇦आमद मरहबा🇸🇦•`,attachment: fs.createReadStream(__dirname + `/noprefix/Nabi.jpg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🙏", event.messageID, (err) => {}, true)

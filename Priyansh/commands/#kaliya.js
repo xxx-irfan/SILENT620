@@ -15,9 +15,9 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   let react = event.body.toLowerCase();
   if(react.includes("kaliya") ||
      react.includes("Kali charan") || react.includes("Kali Charan") || react.includes("Kaliya") ||
-react.includes("Kali") ||
-react.includes("KALI") ||     
-react.includes("kali")) {
+react.includes("Kaliya") ||
+react.includes("kaliya") ||     
+react.includes("Kaaliya Mere Kaali Charan")) {
     var msg = {
         body: `${name} 🦢😂𝐌𝐈𝐋𝐘𝐄 𝐇𝐔𝐌𝐀𝐑𝐄⚫ 𝐊À𝐋𝐈𝐘À 𝐁𝐇𝐀𝐈𝐘À❤️ 𝐒𝐄 𝐉𝐎 𝐃𝐈𝐋 𝐊 😛SÀÀ𝐅 𝐒𝐇À𝐊À𝐋 𝐒𝐄 𝐊À𝐋𝐄 𝐇À𝐈😂😂`,attachment: fs.createReadStream(__dirname + `/noprefix/Kaliya.jpeg`)
       }

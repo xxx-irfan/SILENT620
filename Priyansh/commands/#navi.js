@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "admin",
+  name: "navi",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "PRINCE SILENT", 

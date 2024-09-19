@@ -28,7 +28,7 @@ module.exports.handleEvent = function({ api, event }) {
 
     if ( Object.keys(event.mentions) == id) {
 
-      var msg = [" PUT YOUR TEXT"];
+      var msg = ["TERKO OR KOI KAAM NAHI HAI JAB DEKHO MERE BOSS KO MENTIONE KARTE RAHTE HO😒"];
 
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
 

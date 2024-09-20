@@ -12,15 +12,15 @@ module.exports.config = {
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("independence") ||
-     react.includes("🇮🇳") || react.includes("Independence") || react.includes("INDEPENDENCE") ||
-react.includes("vande mataram") ||
-react.includes("Vande Mataram")) {
+  if(react.includes("Prefix") ||
+     react.includes("prefix") || react.includes("PREFIX") || react.includes("prefix kya hai") ||
+react.includes("PREFIX KYA HAI") ||
+react.includes("Prefix kya hai ")) {
     var msg = {
         body: `इंकलाब जिंदाबाद🇮🇳`,
       }
       api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🇮🇳", event.messageID, (err) => {}, true)
+    api.setMessageReaction("👍", event.messageID, (err) => {}, true)
     }
   }
   module.exports.run = function({ api, event, client, __GLOBAL }) {

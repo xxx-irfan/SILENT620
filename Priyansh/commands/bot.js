@@ -25,7 +25,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
     if ((event.body.toLowerCase() == "🤕") || (event.body.toLowerCase() == "😽")) {
-     return api.sendMessage("💐💐𝐏𝐇𝐋𝐄 𝐁𝐔𝐑𝐒𝐇 𝐊𝐑 𝐊𝐄 𝐀𝐀 😷𝐀𝐉𝐄𝐄𝐁 𝐒𝐈 𝐒𝐌𝐄𝐋 𝐀𝐑𝐇𝐈 𝐇𝐀𝐈🌸🌸", threadID);
+     return api.sendMessage("Pehle  Brush Karke aa ajeeb si smail aa ri hai", threadID);
    };
 
     if ((event.body.toLowerCase() == "👍") || (event.body.toLowerCase() == "👍🏻")) {
@@ -37,18 +37,18 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "hi") || (event.body.toLowerCase() == "hello") ||(event.body.toLowerCase() == "hlw") || (event.body.toLowerCase() == "helo")) {
-     return api.sendMessage("💐𝐇𝐄𝐋𝐋𝐎😍 𝐉𝐀𝐍𝐔🥰 𝐁𝐎𝐋𝐎 𝐊𝐘𝐀 𝐇𝐀𝐀𝐋 𝐇𝐀𝐈🥰", threadID);
+     return api.sendMessage("Hello, Hi, Bye bye. Ye sab ke alawa kuch bolna nhi ata Kya tumko Chalo gol gappi bolo😒😒", threadID);
    };
 
    if ((event.body.toLowerCase() == "who is this god") || (event.body.toLowerCase() == "bhagwan kon hai")) {
      return api.sendMessage("हिंदुओं के मान्यता के अनुसार कोई अंतर नहीं है अर्थात ईश्वर और अल्लाह एक ही आईटम है लेकिन मुसलमानों की मान्यता के अनुसार अल्लाह ही सत्य है और उसके अतिरिक्त कुछ अन्य पूज्य नहीं है बल्कि मनगढ़ंत है। ईश्वर हर जगह रहते हैं, कण कण में विराजमान हैं। सब कुछ परमात्मा में ही समाया हुआ है। ईश्वर निराकार और साकार दोनों है। ", threadID);
    };
 
-  if ((event.body.toLowerCase() == "by") || (event.body.toLowerCase() == "bye")) {return api.sendMessage("💐𝐁𝐀𝐁𝐔 𝐈𝐓𝐍𝐄 𝐉𝐀𝐋𝐃𝐈🤥 𝐂𝐇𝐎𝐑 𝐊𝐄 𝐍𝐀 𝐉𝐀𝐖𝐎 𝐌𝐄𝐑𝐀 𝐃𝐈𝐋 𝐍𝐀𝐇𝐈 𝐋𝐀𝐆𝐄 𝐆𝐀😓 𝐀𝐏𝐊𝐄 𝐁𝐈𝐍𝐀💐🙄", threadID);
+  if ((event.body.toLowerCase() == "by") || (event.body.toLowerCase() == "bye")) {return api.sendMessage("Ok Bye Jldi phirse Milenge 🙄", threadID);
    };
 
   if ((event.body.toLowerCase() == "inbox") || (event.body.toLowerCase() == "ib")) {
-     return api.sendMessage("️ 🤬𝐈𝐁 𝐈𝐁 𝐊𝐘𝐀😩 𝐋𝐀𝐆𝐀 𝐑𝐀𝐊𝐇𝐀 𝐇𝐀𝐈 𝐉𝐎 𝐁𝐎𝐋𝐍𝐀 𝐇𝐀𝐈 𝐈𝐃𝐇𝐀𝐑 𝐁𝐎𝐋 𝐌𝐄𝐑𝐄 𝐒𝐀𝐌𝐍𝐄😈 ", threadID);
+     return api.sendMessage("️ KYa IB IB 👿 Idher BOL MeRe SaMny ", threadID);
    };
 
 
@@ -72,7 +72,7 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simi"))
    };
 
    if ((event.body.toLowerCase() == "tharki bot") || (event.body.toLowerCase() == "bot tharki")) {
-     return api.sendMessage("🤯𝐓𝐇𝐀𝐑𝐊𝐈 𝐓𝐄𝐑𝐀 💩𝐁𝐀𝐀𝐏 𝐓𝐇𝐀𝐑𝐊𝐈 𝐓𝐄𝐑𝐀 𝐃𝐀𝐃𝐀 𝐓𝐇𝐀𝐑𝐊💀𝐈 𝐓𝐄𝐑𝐀 𝐏𝐔𝐑𝐀🤡 𝐊𝐇𝐀𝐍𝐃𝐀𝐍 𝐓𝐇𝐀𝐑𝐊𝐈 🤠", threadID);
+     return api.sendMessage("Tu TharKi Tra Bap TharKi TeRa DaDa TharKi 🤬🤗", threadID);
    };
 
    if ((event.body.toLowerCase() == "lanti bot") || (event.body.toLowerCase() == "lanti hai")) {
@@ -88,23 +88,23 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simi"))
    };
 
    if ((event.body.toLowerCase() == "nikal") || (event.body.toLowerCase() == "nikl")) {
-     return api.sendMessage("🤓𝐂𝐇𝐀𝐋 𝐂𝐇𝐀𝐋 𝐓𝐔 𝐍𝐈𝐊𝐀𝐋 𝐂𝐇𝐀𝐏𝐋 𝐊𝐈 𝐒𝐇𝐀𝐊𝐀𝐋 𝐊𝐄😩", threadID);
+     return api.sendMessage("ChaL ChaL Tu NiKaL", threadID);
    };
 
    if ((event.body.toLowerCase() == "jan") || (event.body.toLowerCase() == "janu")) {
-     return api.sendMessage("💞𝐀𝐀𝐖 𝐘𝐄𝐒 𝐌𝐘 𝐋𝐎𝐕𝐄💐", threadID);
+     return api.sendMessage("Aww🥰 Yes My LoVe", threadID);
    };
 
 if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀😀")) {
-     return api.sendMessage("🤠𝐊𝐀𝐌 𝐒𝐄 𝐊𝐀𝐌 𝐒𝐀𝐇𝐈 𝐒𝐄 𝐌𝐔𝐒𝐊𝐔𝐑𝐀 𝐓𝐎 𝐋𝐄 𝐓𝐎𝐓𝐄😶", threadID);
+     return api.sendMessage("ShaRafat Sy MusKara Rhy 😂", threadID);
    };
 
    if ((event.body.toLowerCase() == "😃") || (event.body.toLowerCase() == "😃😃")) {
-     return api.sendMessage("🐁𝐂𝐇𝐔𝐇𝐄 𝐉𝐀𝐘𝐄 𝐒𝐀 𝐌𝐔𝐇 𝐌𝐀𝐓 𝐃𝐈𝐊𝐇𝐀 𝐓𝐎𝐏𝐀 𝐈𝐍𝐒𝐀𝐍🐭😆", threadID);
+     return api.sendMessage("ChuhY JasA MuH Na DekHa 😆", threadID);
    };
 
    if ((event.body.toLowerCase() == "😂") || (event.body.toLowerCase() == "😂😂")) {
-     return api.sendMessage("😜𝐇𝐘𝐘𝐘 𝐒𝐀𝐃𝐊𝐄 𝐉𝐀𝐖𝐀𝐍 𝐓𝐄𝐑𝐈 𝐌𝐔𝐒𝐊𝐀𝐍 𝐏𝐄😹💞😘 ", threadID);
+     return api.sendMessage("JanU MuskRatY RahO asY 💞😘 ", threadID);
    };
 
    if ((event.body.toLowerCase() == "😁") || (event.body.toLowerCase() == "😁😁")) {
@@ -144,7 +144,7 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
    };
 
    if ((event.body.toLowerCase() == "😘") || (event.body.toLowerCase() == "😘😘")) {
-     return api.sendMessage("🍎  🎀  (❝𝚂𝙷𝙰𝚁𝙼 𝙺𝚁𝙻𝙾 𝚈𝙴 𝙲𝙷𝚄𝙼𝙼𝙰 𝙲𝙷𝙰𝚃𝙸 𝙲𝙷𝙾𝚁𝙾 𝙿𝙰𝙳𝙷𝙰𝙸 𝙿𝙴 𝙳𝙷𝙸𝚈𝙰𝙽 𝙳𝙾😒  🎀  🍎", threadID);
+     return api.sendMessage("𝚂𝙷𝙰𝚁𝙼 𝙺𝚁𝙻𝙾 𝚈𝙴 𝙲𝙷𝚄𝙼𝙼𝙰 𝙲𝙷𝙰𝚃𝙸 𝙲𝙷𝙾𝚁𝙾 𝙿𝙰𝙳𝙷𝙰𝙸 𝙿𝙴 𝙳𝙷𝙸𝚈𝙰𝙽 𝙳𝙾😒", threadID);
    };
 
    if ((event.body.toLowerCase() == "🥰") || (event.body.toLowerCase() == "🥰🥰")) {
@@ -164,36 +164,36 @@ if ((event.body.toLowerCase() == "😀") || (event.body.toLowerCase() == "😀�
    };
 
    if ((event.body.toLowerCase() == "🥳") || (event.body.toLowerCase() == "🥳🥳")) {
-     return api.sendMessage("🎂 ⋆ 🍎  🎀  💍❀🍑🍩🌺 𝒯𝑒𝑅𝒶 𝐻𝒶𝒫𝓅𝓎 𝐵𝒾𝓇𝓉𝒽𝒟𝒶𝓎❝,  🎀  🍎 ⋆ 🎂", threadID);
+     return api.sendMessage("0oo0o TeRa HaPpy BirthDay", threadID);
    };
 
 
    if ((event.body.toLowerCase() == "🙃") || (event.body.toLowerCase() == "🙃🙃")) {
-     return api.sendMessage("👽☠  ʰᵃ𝓨Ⓔ ⓡα𝔹乃ⓐ  😈☝☹️", threadID);
+     return api.sendMessage("HaYe Rabba ☹️", threadID);
    };
 
    if ((event.body.toLowerCase() == "🙂") || (event.body.toLowerCase() == "🙂🙂")) {
-     return api.sendMessage("★彡[Q ᴍᴏᴏᴅ ᴋʜʀʙ ᴋʀ ʀᴀʜʏ ʜᴏ ʙᴀʙʏ]彡★🥺", threadID);
+     return api.sendMessage("Q Mood Khrb kR rahY hO BabY🥺", threadID);
    };
 
    if ((event.body.toLowerCase() == "🥲") || (event.body.toLowerCase() == "🥲🥲")) {
-     return api.sendMessage("★彡[ᴀꜱᴇ ᴍᴜᴜ ʙᴀɴᴀ ᴋʀʀ ᴍᴛ ʀ0ᴏ]彡★", threadID);
+     return api.sendMessage("Ase Muu BaNa KRr MT R0o 😒", threadID);
    };
 
    if ((event.body.toLowerCase() == "😊") || (event.body.toLowerCase() == "😊😊")) {
-     return api.sendMessage("★彡[ꜱʜᴜᴋʀ ʜᴀɪ ꜱᴍɪʟᴇ ᴛᴜ ᴋɪɪ 🥺]彡★", threadID);
+     return api.sendMessage("ShukR hai smile Tu kii 🥺", threadID);
    };
 
    if ((event.body.toLowerCase() == "☺️") || (event.body.toLowerCase() == "☺️☺️")) {
-     return api.sendMessage("★彡[ʏᴇ ꜱᴍɪʟᴇ ɴᴀ ᴅ0ᴏ ɴᴀᴡ🥺"]彡★🥺", threadID);
+     return api.sendMessage("Ye Smile Na D0o Naw🥺", threadID);
    };
 
    if ((event.body.toLowerCase() == "😌") || (event.body.toLowerCase() == "😌😌")) {
-     return api.sendMessage("★彡[ʜᴀʏᴇ ᴍᴀꜱᴏᴏᴍ]彡★", threadID);
+     return api.sendMessage("HaYe Mas0om", threadID);
    };
 
    if ((event.body.toLowerCase() == "😏") || (event.body.toLowerCase() == "😏😏")) {
-     return api.sendMessage("★彡[ᴄʜᴀʟ ʜᴀᴛ ᴍʀᴇ ꜱᴀᴍɴʏ ᴍᴛ ɪᴛʀᴀ ᴛᴇʀᴀ ᴍᴜᴜ ʟᴇ ᴋʀʀ 😂]彡★ 😂", threadID);
+     return api.sendMessage("ChaL Hat Mre SaMny Mt ITra TeRa Muu Le KRr 😂", threadID);
    };
 
    if ((event.body.toLowerCase() == "😴") || (event.body.toLowerCase() == "😴😴")) {

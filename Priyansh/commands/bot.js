@@ -25,7 +25,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
     if ((event.body.toLowerCase() == "🤕") || (event.body.toLowerCase() == "😽")) {
-     return api.sendMessage("Pehle  Brush Karke aa ajeeb si smail aa ri hai", threadID);
+     return api.sendMessage("💐💐𝐏𝐇𝐋𝐄 𝐁𝐔𝐑𝐒𝐇 𝐊𝐑 𝐊𝐄 𝐀𝐀 😷𝐀𝐉𝐄𝐄𝐁 𝐒𝐈 𝐒𝐌𝐄𝐋 𝐀𝐑𝐇𝐈 𝐇𝐀𝐈🌸🌸", threadID);
    };
 
     if ((event.body.toLowerCase() == "👍") || (event.body.toLowerCase() == "👍🏻")) {

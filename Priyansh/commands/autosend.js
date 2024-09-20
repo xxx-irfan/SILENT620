@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 const chalk = require('chalk');
 
 module.exports.config = {
-    name: 'autosent',
+    name: 'autosend',
     version: '10.0.0',
     hasPermssion: 0,
     credits: '𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭',

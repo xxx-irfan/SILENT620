@@ -13,11 +13,11 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Ram") ||
-     react.includes("ram") || react.includes("hanuman") || react.includes("Hanuman") ||
-react.includes("sita") ||
-react.includes("Sita") ||     
-react.includes("seeta")) {
+  if(react.includes("Jai shree Ram") ||
+     react.includes(" ram ram") || react.includes("hanuman") || react.includes("Hanuman") ||
+react.includes("Ram Ram") ||
+react.includes("Sita ram") ||     
+react.includes("Jai shree ram")) {
     var msg = {
         body: `${name} 𝐉À𝐆 𝐌 𝐒À𝐂𝐇À 𝐄𝐊 𝐇𝐈 𝐍À𝐌𝐄 𝐇𝐈 𝐑À𝐌 
 𝐉𝐀𝐈 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌💐✿`,attachment: fs.createReadStream(__dirname + `/noprefix/Ram.gif`)
